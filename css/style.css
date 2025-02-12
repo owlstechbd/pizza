@@ -71,6 +71,11 @@ h1{
     position: absolute;
     z-index: 2;
 }
+.head h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
 
 
 
@@ -148,26 +153,26 @@ h1{
 
 }
 .red-btn{
-    background: #DB5461;
+    background: #003165;
 }
 .parple-btn{
     background: #593C8F;
 }
 #story{
     width: 100%;
-    background: #F9D2D5;
+    background: #B7D8F0;
     display: flex;
     height: 100vh;
 }
 #reservations{
     width: 100%;
-    background: #F9D2D5;
+    background: #B7D8F0;
     display: flex;
     height: 100vh;
 }
 #working{
     width: 100%;
-    background: #F9D2D5;
+    background: #B7D8F0;
     display: flex;
     height: 100vh;
 }
@@ -264,7 +269,7 @@ h1{
 }
 #contact{
     width: 100%;
-    background:#DB5461;
+    background:#003165;
     padding: 30px 0;
     text-align: center;
 }
@@ -345,8 +350,10 @@ h1{
     text-align: center;
     margin-top: 70px;
 }
-.footer-btm img{
-    width: 250px;
+.footer-btm h1{
+   color: #fff;
+   font-size: 40px;
+   margin-bottom: 30px;
 }
 .footer-btm h5{
     font-size: 20px;
