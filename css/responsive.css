@@ -1,0 +1,158 @@
+@media  screen and (max-width: 1050px){
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+       
+        text-align: center;
+    }
+    ul.nav-links {
+        background: #db5461;
+        z-index: 99999;
+        
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
+    #menu-checkbox:checked + .nav-links {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .head-btn a {
+        font-size: 18px;
+    }
+    .head{
+        margin-top: 100px;
+    }
+    #story{
+        height: auto;
+        flex-direction: column;
+    }
+    #working{
+        height: auto;
+        flex-direction: column;
+    }
+    .about-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .about-right-story{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .working-right-photo{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .reservations-right-photo{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    #reservations{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .location {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .head-btn{
+        flex-direction: column;
+    }
+    .head-btn a{
+        margin-bottom: 20px;
+    }
+    .menu-img img {
+        width: 82%;
+    }
+}
+
+@media  screen and (max-width: 1050px){
+   
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+       
+        text-align: center;
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
+    #menu-checkbox:checked + .nav-links {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .head-btn a {
+        font-size: 18px;
+    }
+    #story{
+        display: flex;
+        flex-direction: column;
+    }
+    #reservations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-left {
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .about-story {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-right-story{
+        width: 100%;
+        height: 100%;
+    }
+    .main-menu {
+        width: 100%;
+    }
+    .footer-main {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .contact-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .location {
+        width: 95%;
+        
+    }
+    .navbar {
+        width: 100%;
+        display: flex
+    ;
+        align-items: center;
+        top: 0%;
+        position: absolute;
+        padding: 1px 20px;
+        color: white;
+        justify-content: space-between;
+    }
+    #menu-checkbox:checked + .nav-links {
+        display: flex
+;
+        margin-top: -18px;
+    }
+ 
+}
